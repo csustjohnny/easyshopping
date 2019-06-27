@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*#page {*/
+/*    width: 1200px;*/
+/*    margin: 0 auto;*/
+/*}*/
+#page .col_sub{
+    float: left;
+    min-height: 200px;
+    width: 140px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    margin-left: 0;
+    /*background-color: inherit#fff;*/
+    line-height: 21px;
+}
+.seller-sidebar {
+    background: #fff;
+    position: relative;
+    float: left;
+}
+.seller-sidebar .favorite {
+    padding-left: 14px;
+    padding-top: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.seller-sidebar .favorite .title {
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+}
+.seller-sidebar .list {
+    list-style: none;
+    margin: 4px 0 0;
+    padding: 4px 0;
+    overflow: hidden;
+}
+.seller-sidebar .list li {
+    float: left;
+    width: 85px;
+    padding-bottom: 6px;
+}
+.seller-sidebar .list li a {
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+.seller-sidebar .category {
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 4px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.seller-sidebar .category.first, .seller-sidebar .category.first.hover {
+    border-top: none;
+}
+.seller-sidebar .category.first, .seller-sidebar .category.first ul{
+    text-align: center;
+}
+.seller-sidebar .category .title {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+}
+.sell-card {
+    margin: 18px auto;
+    background: #fff;
+    box-shadow: 0 -2px 4px 0 rgba(229,229,229,.5);
+    width: 1024px;
+    min-height: 32px;
+    padding-bottom: 24px;
+}
+.sell-card > .com-struct {
+    padding: 0 32px;
+}
+.com-struct > .sell-o-addon.sell-radio-top-row {
+    margin-top: -7px;
+}
+.sell-card-title {
+    font-size: 12px;
+    color: #333;
+    text-align: left;
+    border-bottom: solid 1px #eee;
+    padding: 18px;
+    line-height: 12px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+.sell-card > .com-struct > .oly-row-container > .next-col-4, .sell-card > .com-struct > .sell-o-addon > .next-col-4 {
+    width: 120px;
+    max-width: none;
+    flex: none;
+}
